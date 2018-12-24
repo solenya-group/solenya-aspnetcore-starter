@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "solenya-starter", "solenya-starter.csproj", "{DC18BCFC-19E3-4F0D-9CA0-9A57C2937547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC18BCFC-19E3-4F0D-9CA0-9A57C2937547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC18BCFC-19E3-4F0D-9CA0-9A57C2937547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC18BCFC-19E3-4F0D-9CA0-9A57C2937547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC18BCFC-19E3-4F0D-9CA0-9A57C2937547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1792F7-CD8A-408D-9D3D-EE5AD8BE80D6}
+	EndGlobalSection
+EndGlobal
