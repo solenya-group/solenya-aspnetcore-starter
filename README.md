@@ -6,8 +6,15 @@ It's set up to use Webpack 4 & Bootstrap w/ sass files.
 
 Here's some setup tips, which have nothing to do with `solenya` itself, but which you may find useful:
 
- * If the node environment gives you sass isues, fix them by running `npm rebuild node-sass -force` from the command line of the project directory.
- * Occasionally, you may need to wipe the node_modules directory, where all the client libraries are installed. Install the `rimraf` tool to wipe it.
+ * Bootstrap 4 uses sass files, which unfortunately means that you'll need the `node-sass` package, that requires manual configuration:
+   * To configure your machine:
+     * `npm install --global --production windows-build-tools`
+     * `npm install --global node-gyp`
+     * `setx PYTHON %USERPROFILE%\.windows-build-tools\python27\python.exe`
+   * Then, when building and running your project, should `node-sass` fail:
+     * From the Package Manager Console, run the the following command: `npm rebuild node-sass --force`
+     * Rebuild and run your project
+* Occassionally, you'll ned to wipe the node_modules directory, where all the client libraries are installed. Install the `rimraf` tool to wipe it.
  * The project is setup to use https locally. To make this work on your machine, you need to go to the project properties, uncheck SSL, save the project, and then go back into the project properties and re-check SSL. Visual Studio will automatically (lol) setup a new port for you.
 
 ## Code To Play With

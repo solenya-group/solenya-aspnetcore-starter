@@ -23,17 +23,5 @@ namespace SolenyaStarter.Controllers
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
         }
-
-        [HttpPost ("PostFile")]        
-        public IActionResult PostFile (PostFileArgs args)
-        {
-            Console.WriteLine(args.Avatar.Length);
-            return Content("");
-        }
     }
-}
-
-public class PostFileArgs
-{
-    public IFormFile Avatar { get; set; }
 }
